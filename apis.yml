@@ -1,8 +1,29 @@
 aid: plus-simple
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plus-simple.png
 name: Plus Simple
-description: Plus Simple is a company surfaced as a portfolio company of anthemis, speedinvest and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  +Simple (Plus Simple) is a French digital insurance underwriting agency (agence de
+  souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's
+  largest wholesale insurance brokers, it runs a fully digital extranet platform that lets
+  partner insurance brokers prospect, price, underwrite, issue, and manage professional
+  insurance contracts across more than 1,200 covered activities and 30+ niche product lines,
+  including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a
+  100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and
+  Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and
+  Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it
+  publishes no public API or developer surface at this time (its broker and insured portals are
+  authenticated web applications, not open APIs).
 url: https://raw.githubusercontent.com/api-evangelist/plus-simple/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Fintech
+- Brokerage
+- Underwriting
+- France
+- B2B
 apis: []
+common:
+- type: DomainSecurity
+  url: security/plus-simple-domain-security.yml
+- type: Website
+  url: https://plussimple.com/
+- type: Blog
+  url: https://plussimple.com/blog
+- type: Support
+  url: https://plussimple.com/fr/nous-contacter
+- type: Login
+  url: https://app.simplifieurs.pro/auth/login
+- type: TermsOfService
+  url: https://plussimple.com/fr/legal/conditions-generales
+- type: PrivacyPolicy
+  url: https://plussimple.com/fr/legal/charte-confidentialite
+- type: LinkedIn
+  url: https://www.linkedin.com/company/simple-france/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
