@@ -36,6 +36,9 @@ description: >-
   publishes no public API or developer surface at this time (its broker and insured portals are
   authenticated web applications, not open APIs).
 url: https://raw.githubusercontent.com/api-evangelist/plus-simple/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
